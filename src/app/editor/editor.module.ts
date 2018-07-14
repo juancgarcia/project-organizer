@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgxDnDModule } from '@swimlane/ngx-dnd';
 
 import { EditorRoutingModule } from './editor-routing.module';
@@ -10,6 +11,7 @@ import { ListComponent } from './list/list.component';
   imports: [
     CommonModule,
     EditorRoutingModule,
+    FontAwesomeModule,
     NgxDnDModule
   ],
   declarations: [HomeComponent, ListComponent]

@@ -1,7 +1,7 @@
 <ngx-dnd-container [model]="links">
   <ng-template let-model="model">
     <div class="container">
-      <i class="icon icon-dots-vert" ngxDragHandle></i>
+      <fa-icon [icon]="faEllipsisV" ngxDragHandle></fa-icon>
       {{model.text}} - {{model.url}}
     </div>
   </ng-template>

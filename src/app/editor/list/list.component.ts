@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Link } from '../../components/nav/nav.component';
+import { faEllipsisV } from '@fortawesome/free-solid-svg-icons/faEllipsisV'
 
 @Component({
   selector: 'app-list',
@@ -14,6 +15,7 @@ export class ListComponent implements OnInit {
     { text: '3D Model S', url: 'thingiverse.com/me/thing'},
     { text: 'Video Tutorial P', url: 'youtube.com/watch?v=hash' },
   ];
+  private faEllipsisV = faEllipsisV;
   constructor() { }
 
   ngOnInit() {

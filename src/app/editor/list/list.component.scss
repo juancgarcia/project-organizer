@@ -3,12 +3,7 @@
 .container {
     display: flex;
     align-items: center;
-}
-
-i {
-    height: 1em;
-    width: 5px;
-    margin-right: 5px;
-    background-color: white;
-    display: block;
+    fa-icon {
+        margin-right: 10px;
+    }
 }
