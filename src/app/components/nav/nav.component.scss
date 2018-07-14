@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslateblue;
+    div {
+        align-items: flex-start;
+        background-color: cornflowerblue;
+        margin: .25em;
+    }
+}

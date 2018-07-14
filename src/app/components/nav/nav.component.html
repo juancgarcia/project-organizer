@@ -1,0 +1,5 @@
+<nav>
+  <div *ngFor="let link of links">
+    <a [routerLink]="[link.url]">{{link.text}}</a>
+  </div>
+</nav>

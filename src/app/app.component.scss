@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    app-nav {
+        width: 10vw;
+    }
+    article {
+        width: 90vw;
+        background-color: aquamarine;
+    }
+}
