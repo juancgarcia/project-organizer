@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Link } from './components/nav/nav.component';
+import { Link } from './models/link.interface';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'app works!';
   public navLinks: Link[] = [
     { text: 'Home', url: '/'},
-    { text: 'Edit the list', url: '/edit'},
+    { text: 'Services', url: '/edit/services'},
   ];
 }

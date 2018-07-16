@@ -1,9 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-export interface Link {
-  url: string;
-  text: string;
-};
+import { Link } from '../../models/link.interface';
 
 @Component({
   selector: 'app-nav',

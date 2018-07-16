@@ -1,0 +1,7 @@
+<label for="profile">Profile String</label>
+<input name="profile" [ngModel]="profile" placeholder="username/profile" (ngModelChange)="updateProfile($event)">
+<ul>
+  <li *ngFor="let service of services">
+    <a [routerLink]="profile && profile.length > 0 ? ['/', baseRoute, service.url, profile] : null">{{ service.text }}</a>
+  </li>
+</ul>
